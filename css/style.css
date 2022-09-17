@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+.h1-container {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border: solid 5px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.h1-item {
+    text-decoration: underline;
+}
+
+.header-links-container {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.header-item {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.About-me-container {
+    display: flex;
+}
+
+img {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    border: solid 10px black;
+}
+
+figcaption {
+    text-align: center;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid 2.5px black;
+}
+
+section.info {
+width: 100%;
+font-size: 20px;
+font-style: italic;
+margin: 10px;
+padding: 5px;
+background-color: aqua;
+border: solid 10px black;
+border-radius: 10px;
+}
+
+section h2.info-header {
+    text-align: center;
+}
