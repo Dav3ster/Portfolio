@@ -10,56 +10,65 @@
   </head>
 
   <body>
-    <header>
-        <h1 class="h1-container">
-            <strong class="h1-item">David Stewart</strong>
+    <header class="header-container">
+        <h1 style="text-shadow: 3px 2px rgb(39, 38, 38);">
+            <strong style=>David Stewart</strong>
         </h1>
-        <nav class="header-links-container">
+        <nav>
             <ul>  
-                <a href="#About-me" class="header-item">About me</a>
-                <a href="#Applications" class="header-item">Applications</a>
-                <a href="#contact" class="header-item">Contact</a>
+                <a href="#About-me" class="header-items">About me</a>
+                <a href="#Applications" class="header-items">Applications</a>
+                <a href="#contact" class="header-items">Contact</a>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="About-me" class="About-me-container">
-            <figure>
-             <img src="./images/Me&Rebecca.jpg" alt="David&Rebecca"><br>
-             <figcaption><em>A face to the name</em></figcaption>
-            </figure>
-
-            <section class="info">
-              <h2 style="text-decoration: underline;" class="info-header"><em>A little about myself</em></h2>
-              <ul>
-                <li>I'm currently living in North Carolina, in the RDU area.</li>
-                <li>I'm currently taking UNC's web development bootcamp.</li>
-                <li>I play the guitar, and I enjoy jamming with my friends.</li>
-                <li>I prefer the mountains to the beach, too much sand.</li>
-              </ul>
+            <section class="photobox">
+              <img src="./images/Me&Rebecca.jpg" alt="David&Rebecca">
             </section>
 
+            <section class="a-little-about-myself-container">
+
+              <h2 id="h2-about-me"><em>A little about myself</em></h2>
+
+              <section class="about-me-p">
+                <p class="info-p-item">Born and raised in North Carolina, in the RDU area.<br>
+                I'm currently taking UNC's full stack web development bootcamp.<br>
+                I have 10 years experience as a CNC machine programmer, with a eye for detail, and a passion for creating all things.<br>
+                I enjoy working with a team, and seeing a final product come to fruition.<br>
+                In my spare time, one of my main hobbies is playing music. I play the guitar & keyboard. </p>
+              </section>
+            </section>
         </section>
+
+        <h2 class="applications-header"><strong>Applications</strong></h2>
+
         <section id="Applications" class="app-container">
-            <h2><strong>Applications</strong></h2>
-            <section class="item-prework">
+          <section class="item-refactoring">
+              <a href="https://dav3ster.github.io/week-1-challenge-Refactoring/">
+              <img src="./images/Refactoring img.jpg" alt="Refactoring-img"></a>
+              <h3  id="app1h3">Semantic HTML</h3>
+          </section> 
+        </section>
 
-            </section> 
-
-            <section class="item-refactoring">
-                
+        <section class="placeholder-container">
+            <section class="placeholder-item">
+                <img src="./images/placeholder-img.png" alt="placeholder">
+                <h3 class="placeholder-text">New apps in the making</h3>
             </section>
 
-            <section class="item-mini">
-                
+            <section class="placeholder-item">
+              <img src="./images/placeholder-img.png" alt="placeholder">
+              <h3 class="placeholder-text">New apps in the making</h3>
             </section>
         </section>
     </main>
 
     <footer>
         <section id="contact" class="contact">
-            <h2><strong>Contact me</strong></h2>
+            <h3><strong>Contact me</strong></h3>
             <ul>
                 <li>919-452-1260</li>
                 <li>Davidstew87@gmail.com</li>
