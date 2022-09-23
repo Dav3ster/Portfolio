@@ -1,16 +1,11 @@
 html{
     background-image: linear-gradient(green,silver,dodgerblue);
 }
-
+/* applying a linear-gradient to the overall background */
 body {
     padding: 10px;
 }
-
-header {
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/* gives the boy a padding of 10px */
 .header-container {
     display: flex;
     justify-content: center;
@@ -22,7 +17,7 @@ header {
     min-width: 345px;
     flex-wrap: wrap;
 }
-
+/* the header container set to flex */
 .header-items {
     font-size: 40px;
     padding: 5px;
@@ -31,7 +26,7 @@ header {
     font-weight: bold;
     text-shadow: 3px 2px rgb(39, 38, 38)
 }
-
+/* all the items going inside of the header */
 .About-me-container {
     display: flex;
     flex-direction: row;
@@ -40,7 +35,7 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+/* The main sextion that holds all the about me information */
 .photobox {
     display: flex;
     justify-content: center;
@@ -50,13 +45,13 @@ header {
     padding: 5px 
     
 }
-
+/* This is the section used to house the image */
 .photobox img {
     border-radius: 25px;
     max-width:100%;
     height:100%;
 }
-
+/* Above are the rules for the img within said house */
 .a-little-about-myself-container {
     display: flex;
     flex-direction: column;
@@ -65,18 +60,18 @@ header {
     border-radius: 20px;
     background-image: linear-gradient(45deg, dodgerblue, white, green);
 }
-
+/* this is the section that holds the details heading and <p> elements */
 #h2-about-me {
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
 } 
-
+/* rules for the header */
 #h2-about-me::before,
 #h2-about-me::after {
     content:" ⭐ ";
 }
-
+/* some pseudo elements to make it look nice */
 .about-me-p-container {
     display: flex;
     flex-direction: column;
@@ -85,13 +80,12 @@ header {
     font-style: italic;
     font-weight: bold;
     overflow-y: auto; /* adds scroll bar */
-
 }
-
+/* the p container  */
 .info-p-item {
     margin: 0 10px 75px 10px;
 }
-
+/* along with a touch up to the item within */
 .applications-header {
     display: flex;
     justify-content: center;
@@ -104,12 +98,12 @@ header {
     font-size: 40px;
     text-shadow: 3px 2px rgb(39, 38, 38);
 }
-
+/* the header seperating the about me and show case section */
 .app-container {
     display:flex;
     justify-content: center;
 }
-
+/* large image container */
 .item-refactoring img {
     display: flex;
     justify-content: center;
@@ -120,7 +114,7 @@ header {
     margin-bottom: 0;
     max-width:100%;
 }
-
+/* rules for the showcased week1 challenge */
 #app1h3 {
     margin: 0 0 30px 0;
     font-size: 25px;
@@ -128,7 +122,7 @@ header {
     text-shadow: 3px 2px rgb(39, 38, 38);
     text-align: center;
 }
-
+/* rules for the lable */
 .placeholder-container {
     display:flex;
     justify-content: center;
@@ -157,7 +151,7 @@ header {
     text-shadow: 3px 2px rgb(39, 38, 38);
     text-align: center;
 }
-
+/* above follows a similar pattern for the first showcased item except their are to sections now */
 @media screen and (max-width: 450px){
      .header-items{font-size: smaller;}
 }
@@ -181,3 +175,4 @@ header {
 @media screen and (max-width: 650px){
     .photobox img{height: 75%;}
 }
+/* above are my media Q's I've attempted to make some of the text and photos size more responsive to smaller sized screens */
