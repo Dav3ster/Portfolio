@@ -11,4 +11,4 @@ The purpose of this challenge was to build a online portfolio. This portfolio wi
 
 https://dav3ster.github.io/
 
-https://dav3ster.github.io/week-2-Challenge-Portfolio/
+https://dav3ster.github.io/Portfolio/
